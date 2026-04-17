@@ -1,8 +1,11 @@
-# 社交媒体原始数据存档（本地 JSONL，不进 Git）
-social/
+# 社交媒体 md 存档：social/*.md 需进 Git
+# 以下文件不进 Git：
 
-# 本地自定义 RSS 采集存档
-custom-feeds.json
+# 自定义 RSS 源配置（包含 URL）
+data/custom-feeds.json
+
+# JSONL 原始数据存档（不需要）
+*.jsonl
 
 # 临时文件
 *.tmp
