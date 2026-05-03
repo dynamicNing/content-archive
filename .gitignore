@@ -1,0 +1,12 @@
+# 社交媒体 md 存档：social/*.md 需进 Git
+# 以下文件不进 Git：
+
+# 自定义 RSS 源配置（包含 URL）
+data/custom-feeds.json
+
+# JSONL 原始数据存档（不需要）
+*.jsonl
+
+# 临时文件
+*.tmp
+*.swp
